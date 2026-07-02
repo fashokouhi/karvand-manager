@@ -1,0 +1,59 @@
+{
+    "bootcamp": {
+        "title": "karvand python",
+        "year": 2026
+    },
+    "karvands": [
+        {
+            "id": 1,
+            "full_name": "rr",
+            "email": "tt",
+            "city": "yy",
+            "education": {
+                "degree": "uu",
+                "field": "vv"
+            },
+            "skills": [
+                {
+                    "name": "jj",
+                    "level": "ff",
+                    "score": 66
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "full_name": "ali",
+            "email": "ali@gmail.com",
+            "city": "ahvaz",
+            "education": {
+                "degree": "doctor",
+                "field": "math"
+            },
+            "skills": [
+                {
+                    "name": "writer",
+                    "level": "mid",
+                    "score": 67
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "full_name": "ahmad",
+            "email": "ahmad@gmail.com",
+            "city": "rasht",
+            "education": {
+                "degree": "doctor",
+                "field": "painter"
+            },
+            "skills": [
+                {
+                    "name": "football",
+                    "level": "high",
+                    "score": 89
+                }
+            ]
+        }
+    ]
+}
