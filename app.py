@@ -30,7 +30,7 @@ try:
         print("8. Exit")
         choice = int(input())
         
-        #add
+#**********************************add****************************************
         if choice == 1:
             if os.path.exists("data/karvands.json") and os.path.getsize("data/karvands.json") > 0:
                 with open("data/karvands.json","r") as file:
@@ -101,7 +101,7 @@ try:
                 json.dump(data ,file ,indent=4)
             pprint.pprint(new_karvand,sort_dicts= False)
 
-
+#*********************************************show***********************************
         elif choice == 2:
             with open("data/karvands.json" , "r") as file:
                 data = json.load(file)
@@ -123,6 +123,7 @@ try:
                             print("  Level:", skill["level"])
                             print("  Score:", skill["score"])
 
+#*******************************************seearch_id******************************************
         elif choice == 3:
 
             # def search_karvand_by_id():
@@ -146,7 +147,12 @@ try:
                     break
             else:
                 print("no karvand found.")
-                    
+#******************************** Employee search based on skills**********************
+        elif choice == 4:
+            print("Select another option.")
+            pass
+
+#*********************edit******************************
         elif choice == 5:
             id_edit = int(input("Enter the ID that you want edit informaion : "))
             with open("data/karvands.json", "r") as file:
@@ -185,6 +191,7 @@ try:
             else : 
                     print("no karvand found.")
 
+#***************************delete*************************
         elif choice == 6:
             id_del = int(input("Enter the ID that you want delete : "))
             with open("data/karvands.json", "r") as file:
@@ -200,7 +207,12 @@ try:
                 json.dump(data, file,indent=4)
             print("Deletion completed successfully.")
 
-
+#******************************report********************
+        elif choice==7:
+            print("Select another option.")
+            pass
+        
+#*************************exit************************
         elif choice == 8:
             flag = False
             break
