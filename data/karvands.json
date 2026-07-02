@@ -25,7 +25,7 @@
             "id": 2,
             "full_name": "ali",
             "email": "ali@gmail.com",
-            "city": "ahvaz",
+            "city": "tehran",
             "education": {
                 "degree": "doctor",
                 "field": "math"
@@ -35,23 +35,6 @@
                     "name": "writer",
                     "level": "mid",
                     "score": 67
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "full_name": "ahmad",
-            "email": "ahmad@gmail.com",
-            "city": "rasht",
-            "education": {
-                "degree": "doctor",
-                "field": "painter"
-            },
-            "skills": [
-                {
-                    "name": "football",
-                    "level": "high",
-                    "score": 89
                 }
             ]
         }
